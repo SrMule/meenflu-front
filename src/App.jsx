@@ -1,12 +1,18 @@
+import Navbar from './components/Navbar'
+import Map from './components/Map'
 import './App.css'
 
 function App() {
 
-  return (
-    <>
-      <h1 className='text-red-700'>Hola mundo</h1>
-    </>
-  )
+    return (
+        <div className='w-full min-h-screen bg-white'>
+            <Navbar />
+            <main className='relative z-0'>
+                <Map/>
+            </main>
+            <footer></footer>
+        </div>
+    )
 }
 
 export default App

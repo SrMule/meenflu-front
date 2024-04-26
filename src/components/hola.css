@@ -1,0 +1,17 @@
+.number-marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Adjust background color */
+    border-radius: 50%; /* Set circular shape */
+    color: #000; /* Adjust text color */
+    font-weight: bold; /* Emphasize number */
+    font-size: 20px; /* Adjust text size */
+    padding: 5px; /* Add padding for spacing */
+  }
+
+  .my-custom-icon {
+    /* Optional: Additional styles for marker itself */
+    /* Example: Add a shadow effect */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  }
